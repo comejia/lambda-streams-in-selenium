@@ -62,7 +62,7 @@ public class SeleniumTest {
         Rules.get().forEach(elements::removeIf);
 
         System.out.println("After :: " + elements.size());
-        
+
         elements.forEach(el -> System.out.println(el.getText()));
 
     }
